@@ -413,3 +413,22 @@
 2022/12/04 14:47:37 [notice] 1#1: start worker process 34
 2022/12/04 14:47:45 [error] 33#33: *4 connect() to unix:///backend/tmp/sockets/puma.sock failed (111: Connection refused) while connecting to upstream, client: 172.23.0.1, server: localhost, request: "GET /manage/ HTTP/1.1", upstream: "http://unix:///backend/tmp/sockets/puma.sock:/manage/", host: "localhost"
 2022/12/04 14:47:47 [error] 34#34: *3 connect() to unix:///backend/tmp/sockets/puma.sock failed (111: Connection refused) while connecting to upstream, client: 172.23.0.1, server: localhost, request: "GET /manage/ HTTP/1.1", upstream: "http://unix:///backend/tmp/sockets/puma.sock:/manage/", host: "localhost"
+2022/12/04 15:01:57 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/12/04 15:01:57 [notice] 32#32: gracefully shutting down
+2022/12/04 15:01:57 [notice] 33#33: gracefully shutting down
+2022/12/04 15:01:57 [notice] 33#33: exiting
+2022/12/04 15:01:57 [notice] 34#34: gracefully shutting down
+2022/12/04 15:01:57 [notice] 34#34: exiting
+2022/12/04 15:01:57 [notice] 33#33: exit
+2022/12/04 15:01:57 [notice] 34#34: exit
+2022/12/04 15:01:57 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/12/04 15:01:57 [notice] 1#1: worker process 33 exited with code 0
+2022/12/04 15:01:57 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/04 15:01:57 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2022/12/04 15:01:57 [notice] 1#1: worker process 34 exited with code 0
+2022/12/04 15:01:57 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/04 15:02:00 [notice] 32#32: exiting
+2022/12/04 15:02:00 [notice] 32#32: exit
+2022/12/04 15:02:00 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/12/04 15:02:00 [notice] 1#1: worker process 32 exited with code 0
+2022/12/04 15:02:00 [notice] 1#1: exit
