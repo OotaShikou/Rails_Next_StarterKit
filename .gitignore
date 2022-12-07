@@ -1,2 +1,2 @@
-container/db/data
-container/nginx/log
+/container/db/data
+/container/nginx/log/*
