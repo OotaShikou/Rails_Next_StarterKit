@@ -432,3 +432,753 @@
 2022/12/04 15:02:00 [notice] 1#1: signal 17 (SIGCHLD) received from 32
 2022/12/04 15:02:00 [notice] 1#1: worker process 32 exited with code 0
 2022/12/04 15:02:00 [notice] 1#1: exit
+2022/12/13 11:52:18 [notice] 1#1: using the "epoll" event method
+2022/12/13 11:52:18 [notice] 1#1: nginx/1.21.6
+2022/12/13 11:52:18 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/12/13 11:52:18 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/12/13 11:52:18 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/12/13 11:52:18 [notice] 1#1: start worker processes
+2022/12/13 11:52:18 [notice] 1#1: start worker process 31
+2022/12/13 11:52:18 [notice] 1#1: start worker process 32
+2022/12/13 11:52:18 [notice] 1#1: start worker process 33
+2022/12/13 11:52:18 [notice] 1#1: start worker process 34
+2022/12/13 12:11:48 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/12/13 12:11:48 [notice] 34#34: gracefully shutting down
+2022/12/13 12:11:48 [notice] 33#33: gracefully shutting down
+2022/12/13 12:11:48 [notice] 32#32: gracefully shutting down
+2022/12/13 12:11:48 [notice] 31#31: gracefully shutting down
+2022/12/13 12:11:48 [notice] 34#34: exiting
+2022/12/13 12:11:48 [notice] 34#34: exit
+2022/12/13 12:11:48 [notice] 32#32: exiting
+2022/12/13 12:11:48 [notice] 32#32: exit
+2022/12/13 12:11:48 [notice] 33#33: exiting
+2022/12/13 12:11:48 [notice] 33#33: exit
+2022/12/13 12:11:48 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2022/12/13 12:11:48 [notice] 1#1: worker process 32 exited with code 0
+2022/12/13 12:11:48 [notice] 1#1: worker process 33 exited with code 0
+2022/12/13 12:11:48 [notice] 1#1: worker process 34 exited with code 0
+2022/12/13 12:11:48 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/13 12:11:48 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/12/13 12:12:09 [notice] 1#1: using the "epoll" event method
+2022/12/13 12:12:09 [notice] 1#1: nginx/1.21.6
+2022/12/13 12:12:09 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/12/13 12:12:09 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/12/13 12:12:09 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/12/13 12:12:09 [notice] 1#1: start worker processes
+2022/12/13 12:12:09 [notice] 1#1: start worker process 30
+2022/12/13 12:12:09 [notice] 1#1: start worker process 31
+2022/12/13 12:12:09 [notice] 1#1: start worker process 32
+2022/12/13 12:12:09 [notice] 1#1: start worker process 33
+2022/12/13 12:12:38 [error] 32#32: *5 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:12:40 [error] 32#32: *5 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:12:43 [error] 32#32: *5 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:12:46 [error] 32#32: *5 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:12:49 [error] 32#32: *5 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:12:50 [error] 32#32: *5 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:12:54 [error] 32#32: *5 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:12:56 [error] 32#32: *5 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:12:59 [error] 32#32: *5 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:13:00 [error] 32#32: *5 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:13:05 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:13:06 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:13:08 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:13:10 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:13:15 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:13:16 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:13:19 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:13:21 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:13:24 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:13:26 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:13:29 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:13:31 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:13:34 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:13:36 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:13:39 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:13:41 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:13:44 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:13:46 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:13:49 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:13:51 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:13:54 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:13:56 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:13:59 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:14:01 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:14:04 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:14:06 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:14:09 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:14:11 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:14:14 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:14:16 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:14:19 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:14:21 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:14:24 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:14:26 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:14:29 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:14:31 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:14:34 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:14:36 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:14:39 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:14:41 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:14:44 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:14:46 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:14:49 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:14:51 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:14:54 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:14:56 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:14:59 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:15:01 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:15:04 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:15:06 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:15:09 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:15:11 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:15:14 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:15:16 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:15:19 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:15:21 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:15:24 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:15:26 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:15:29 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:15:31 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:15:34 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:15:36 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:15:39 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:15:41 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:15:44 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:15:46 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:15:49 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:15:51 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:15:54 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:15:56 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:15:59 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:16:01 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:16:04 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:16:06 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:16:09 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:16:11 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:16:25 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:17:09 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:17:10 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:17:12 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:17:15 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost", referrer: "http://localhost/storybook"
+2022/12/13 12:17:17 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost"
+2022/12/13 12:17:19 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost"
+2022/12/13 12:17:19 [error] 33#33: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost"
+2022/12/13 12:17:52 [error] 30#30: *106 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost"
+2022/12/13 12:17:53 [error] 30#30: *106 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.22.0.5:6006/", host: "localhost"
+2022/12/13 12:19:18 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/12/13 12:19:18 [notice] 30#30: gracefully shutting down
+2022/12/13 12:19:18 [notice] 31#31: gracefully shutting down
+2022/12/13 12:19:18 [notice] 30#30: exiting
+2022/12/13 12:19:18 [notice] 33#33: gracefully shutting down
+2022/12/13 12:19:18 [notice] 33#33: exiting
+2022/12/13 12:19:18 [notice] 32#32: gracefully shutting down
+2022/12/13 12:19:18 [notice] 31#31: exiting
+2022/12/13 12:19:18 [notice] 30#30: exit
+2022/12/13 12:19:18 [notice] 33#33: exit
+2022/12/13 12:19:18 [notice] 32#32: exiting
+2022/12/13 12:19:18 [notice] 32#32: exit
+2022/12/13 12:19:18 [notice] 31#31: exit
+2022/12/13 12:19:19 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/12/13 12:19:19 [notice] 1#1: worker process 32 exited with code 0
+2022/12/13 12:19:19 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/13 12:19:19 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/12/13 12:19:19 [notice] 1#1: worker process 30 exited with code 0
+2022/12/13 12:19:19 [notice] 1#1: worker process 31 exited with code 0
+2022/12/13 12:19:19 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/13 12:19:19 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2022/12/13 12:19:19 [notice] 1#1: worker process 33 exited with code 0
+2022/12/13 12:19:19 [notice] 1#1: exit
+2022/12/13 12:19:32 [notice] 1#1: using the "epoll" event method
+2022/12/13 12:19:32 [notice] 1#1: nginx/1.21.6
+2022/12/13 12:19:32 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/12/13 12:19:32 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/12/13 12:19:32 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/12/13 12:19:32 [notice] 1#1: start worker processes
+2022/12/13 12:19:32 [notice] 1#1: start worker process 30
+2022/12/13 12:19:32 [notice] 1#1: start worker process 31
+2022/12/13 12:19:32 [notice] 1#1: start worker process 32
+2022/12/13 12:19:32 [notice] 1#1: start worker process 33
+2022/12/13 12:19:35 [error] 30#30: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.23.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.23.0.5:6006/", host: "localhost"
+2022/12/13 12:19:36 [error] 31#31: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 172.23.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.23.0.5:6006/", host: "localhost"
+2022/12/13 12:19:37 [error] 32#32: *7 connect() failed (111: Connection refused) while connecting to upstream, client: 172.23.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.23.0.5:6006/", host: "localhost"
+2022/12/13 12:19:38 [error] 33#33: *10 connect() failed (111: Connection refused) while connecting to upstream, client: 172.23.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.23.0.5:6006/", host: "localhost"
+2022/12/13 12:19:51 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/12/13 12:19:51 [notice] 31#31: gracefully shutting down
+2022/12/13 12:19:51 [notice] 31#31: exiting
+2022/12/13 12:19:51 [notice] 30#30: gracefully shutting down
+2022/12/13 12:19:51 [notice] 30#30: exiting
+2022/12/13 12:19:51 [notice] 32#32: gracefully shutting down
+2022/12/13 12:19:51 [notice] 33#33: gracefully shutting down
+2022/12/13 12:19:51 [notice] 31#31: exit
+2022/12/13 12:19:51 [notice] 30#30: exit
+2022/12/13 12:19:51 [notice] 32#32: exiting
+2022/12/13 12:19:51 [notice] 32#32: exit
+2022/12/13 12:19:51 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/12/13 12:19:51 [notice] 1#1: worker process 31 exited with code 0
+2022/12/13 12:19:51 [notice] 1#1: worker process 30 exited with code 0
+2022/12/13 12:19:51 [notice] 1#1: worker process 32 exited with code 0
+2022/12/13 12:19:51 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/13 12:19:51 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/12/13 12:19:52 [notice] 33#33: exiting
+2022/12/13 12:19:52 [notice] 33#33: exit
+2022/12/13 12:19:52 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/12/13 12:19:52 [notice] 1#1: worker process 33 exited with code 0
+2022/12/13 12:19:52 [notice] 1#1: exit
+2022/12/13 12:20:05 [notice] 1#1: using the "epoll" event method
+2022/12/13 12:20:05 [notice] 1#1: nginx/1.21.6
+2022/12/13 12:20:05 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/12/13 12:20:05 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/12/13 12:20:05 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/12/13 12:20:05 [notice] 1#1: start worker processes
+2022/12/13 12:20:05 [notice] 1#1: start worker process 30
+2022/12/13 12:20:05 [notice] 1#1: start worker process 31
+2022/12/13 12:20:05 [notice] 1#1: start worker process 32
+2022/12/13 12:20:05 [notice] 1#1: start worker process 33
+2022/12/13 12:20:11 [error] 30#30: *1 connect() failed (113: No route to host) while connecting to upstream, client: 172.24.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.24.0.5:6006/", host: "localhost"
+2022/12/13 12:20:14 [error] 30#30: *1 connect() failed (113: No route to host) while connecting to upstream, client: 172.24.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.24.0.5:3000/favicon.ico", host: "localhost", referrer: "http://localhost/storybook/"
+2022/12/13 12:20:17 [error] 30#30: *1 connect() failed (113: No route to host) while connecting to upstream, client: 172.24.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.24.0.5:6006/", host: "localhost"
+2022/12/13 12:20:20 [error] 31#31: *6 connect() failed (113: No route to host) while connecting to upstream, client: 172.24.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.24.0.5:6006/", host: "localhost"
+2022/12/13 12:20:20 [error] 30#30: *1 connect() failed (113: No route to host) while connecting to upstream, client: 172.24.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.24.0.5:3000/favicon.ico", host: "localhost", referrer: "http://localhost/storybook/"
+2022/12/13 12:20:23 [error] 30#30: *1 connect() failed (113: No route to host) while connecting to upstream, client: 172.24.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.24.0.5:3000/favicon.ico", host: "localhost", referrer: "http://localhost/storybook/"
+2022/12/13 12:20:23 [error] 31#31: *6 connect() failed (113: No route to host) while connecting to upstream, client: 172.24.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.24.0.5:6006/", host: "localhost"
+2022/12/13 12:20:26 [error] 30#30: *1 connect() failed (113: No route to host) while connecting to upstream, client: 172.24.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://172.24.0.5:3000/", host: "localhost"
+2022/12/13 12:20:26 [error] 31#31: *6 connect() failed (113: No route to host) while connecting to upstream, client: 172.24.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.24.0.5:3000/favicon.ico", host: "localhost", referrer: "http://localhost/storybook/"
+2022/12/13 12:20:29 [error] 30#30: *1 connect() failed (113: No route to host) while connecting to upstream, client: 172.24.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://172.24.0.5:3000/", host: "localhost"
+2022/12/13 12:20:29 [error] 31#31: *6 connect() failed (113: No route to host) while connecting to upstream, client: 172.24.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.24.0.5:3000/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2022/12/13 12:20:33 [error] 31#31: *6 connect() failed (113: No route to host) while connecting to upstream, client: 172.24.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.24.0.5:3000/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2022/12/13 12:21:07 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/12/13 12:21:07 [notice] 30#30: gracefully shutting down
+2022/12/13 12:21:07 [notice] 31#31: gracefully shutting down
+2022/12/13 12:21:07 [notice] 33#33: gracefully shutting down
+2022/12/13 12:21:07 [notice] 32#32: gracefully shutting down
+2022/12/13 12:21:07 [notice] 30#30: exiting
+2022/12/13 12:21:07 [notice] 31#31: exiting
+2022/12/13 12:21:07 [notice] 33#33: exiting
+2022/12/13 12:21:07 [notice] 32#32: exiting
+2022/12/13 12:21:07 [notice] 30#30: exit
+2022/12/13 12:21:07 [notice] 31#31: exit
+2022/12/13 12:21:07 [notice] 33#33: exit
+2022/12/13 12:21:07 [notice] 32#32: exit
+2022/12/13 12:21:07 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/12/13 12:21:07 [notice] 1#1: worker process 30 exited with code 0
+2022/12/13 12:21:07 [notice] 1#1: worker process 31 exited with code 0
+2022/12/13 12:21:07 [notice] 1#1: worker process 33 exited with code 0
+2022/12/13 12:21:07 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/13 12:21:07 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2022/12/13 12:21:07 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/12/13 12:21:07 [notice] 1#1: worker process 32 exited with code 0
+2022/12/13 12:21:07 [notice] 1#1: exit
+2022/12/13 12:21:22 [notice] 1#1: using the "epoll" event method
+2022/12/13 12:21:22 [notice] 1#1: nginx/1.21.6
+2022/12/13 12:21:22 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/12/13 12:21:22 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/12/13 12:21:22 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/12/13 12:21:22 [notice] 1#1: start worker processes
+2022/12/13 12:21:22 [notice] 1#1: start worker process 30
+2022/12/13 12:21:22 [notice] 1#1: start worker process 31
+2022/12/13 12:21:22 [notice] 1#1: start worker process 32
+2022/12/13 12:21:22 [notice] 1#1: start worker process 33
+2022/12/13 13:21:58 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/12/13 13:21:58 [notice] 32#32: gracefully shutting down
+2022/12/13 13:21:58 [notice] 30#30: gracefully shutting down
+2022/12/13 13:21:58 [notice] 31#31: gracefully shutting down
+2022/12/13 13:21:58 [notice] 31#31: exiting
+2022/12/13 13:21:58 [notice] 33#33: gracefully shutting down
+2022/12/13 13:21:58 [notice] 32#32: exiting
+2022/12/13 13:21:58 [notice] 31#31: exit
+2022/12/13 13:21:58 [notice] 32#32: exit
+2022/12/13 13:21:58 [notice] 33#33: exiting
+2022/12/13 13:21:58 [notice] 33#33: exit
+2022/12/13 13:21:58 [notice] 30#30: exiting
+2022/12/13 13:21:58 [notice] 30#30: exit
+2022/12/13 13:21:58 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/12/13 13:21:58 [notice] 1#1: worker process 32 exited with code 0
+2022/12/13 13:21:58 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/13 13:21:58 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/12/13 13:21:58 [notice] 1#1: worker process 31 exited with code 0
+2022/12/13 13:21:58 [notice] 1#1: worker process 30 exited with code 0
+2022/12/13 13:21:58 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/13 13:21:58 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2022/12/13 13:21:58 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/12/13 13:21:58 [notice] 1#1: worker process 33 exited with code 0
+2022/12/13 13:21:58 [notice] 1#1: exit
+2022/12/13 13:22:13 [notice] 1#1: using the "epoll" event method
+2022/12/13 13:22:13 [notice] 1#1: nginx/1.21.6
+2022/12/13 13:22:13 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/12/13 13:22:13 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/12/13 13:22:13 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/12/13 13:22:13 [notice] 1#1: start worker processes
+2022/12/13 13:22:13 [notice] 1#1: start worker process 30
+2022/12/13 13:22:13 [notice] 1#1: start worker process 31
+2022/12/13 13:22:13 [notice] 1#1: start worker process 32
+2022/12/13 13:22:13 [notice] 1#1: start worker process 33
+2022/12/13 13:26:07 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/12/13 13:26:07 [notice] 32#32: gracefully shutting down
+2022/12/13 13:26:07 [notice] 33#33: gracefully shutting down
+2022/12/13 13:26:07 [notice] 30#30: gracefully shutting down
+2022/12/13 13:26:07 [notice] 30#30: exiting
+2022/12/13 13:26:07 [notice] 32#32: exiting
+2022/12/13 13:26:07 [notice] 32#32: exit
+2022/12/13 13:26:07 [notice] 31#31: gracefully shutting down
+2022/12/13 13:26:07 [notice] 33#33: exiting
+2022/12/13 13:26:07 [notice] 33#33: exit
+2022/12/13 13:26:07 [notice] 30#30: exit
+2022/12/13 13:26:07 [notice] 31#31: exiting
+2022/12/13 13:26:07 [notice] 31#31: exit
+2022/12/13 13:26:07 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/12/13 13:26:07 [notice] 1#1: worker process 32 exited with code 0
+2022/12/13 13:26:07 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/13 13:26:07 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/12/13 13:26:07 [notice] 1#1: worker process 30 exited with code 0
+2022/12/13 13:26:07 [notice] 1#1: worker process 31 exited with code 0
+2022/12/13 13:26:07 [notice] 1#1: worker process 33 exited with code 0
+2022/12/13 13:26:07 [notice] 1#1: exit
+2022/12/13 13:26:19 [notice] 1#1: using the "epoll" event method
+2022/12/13 13:26:19 [notice] 1#1: nginx/1.21.6
+2022/12/13 13:26:19 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/12/13 13:26:19 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/12/13 13:26:19 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/12/13 13:26:19 [notice] 1#1: start worker processes
+2022/12/13 13:26:19 [notice] 1#1: start worker process 30
+2022/12/13 13:26:19 [notice] 1#1: start worker process 31
+2022/12/13 13:26:19 [notice] 1#1: start worker process 32
+2022/12/13 13:26:19 [notice] 1#1: start worker process 33
+2022/12/13 13:30:44 [error] 30#30: *1 connect() failed (113: No route to host) while connecting to upstream, client: 172.27.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://172.27.0.5:3000/", host: "localhost"
+2022/12/13 13:30:47 [error] 30#30: *1 connect() failed (113: No route to host) while connecting to upstream, client: 172.27.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.27.0.5:3000/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2022/12/13 13:31:50 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/12/13 13:31:50 [notice] 33#33: gracefully shutting down
+2022/12/13 13:31:50 [notice] 31#31: gracefully shutting down
+2022/12/13 13:31:50 [notice] 32#32: gracefully shutting down
+2022/12/13 13:31:50 [notice] 30#30: gracefully shutting down
+2022/12/13 13:31:50 [notice] 33#33: exiting
+2022/12/13 13:31:50 [notice] 31#31: exiting
+2022/12/13 13:31:50 [notice] 31#31: exit
+2022/12/13 13:31:50 [notice] 32#32: exiting
+2022/12/13 13:31:50 [notice] 32#32: exit
+2022/12/13 13:31:50 [notice] 30#30: exiting
+2022/12/13 13:31:50 [notice] 33#33: exit
+2022/12/13 13:31:50 [notice] 30#30: exit
+2022/12/13 13:31:50 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/12/13 13:31:50 [notice] 1#1: worker process 31 exited with code 0
+2022/12/13 13:31:50 [notice] 1#1: worker process 32 exited with code 0
+2022/12/13 13:31:50 [notice] 1#1: worker process 33 exited with code 0
+2022/12/13 13:31:50 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/13 13:31:50 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/12/13 13:31:50 [notice] 1#1: worker process 30 exited with code 0
+2022/12/13 13:31:50 [notice] 1#1: exit
+2022/12/13 13:32:04 [notice] 1#1: using the "epoll" event method
+2022/12/13 13:32:04 [notice] 1#1: nginx/1.21.6
+2022/12/13 13:32:04 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/12/13 13:32:04 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/12/13 13:32:04 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/12/13 13:32:04 [notice] 1#1: start worker processes
+2022/12/13 13:32:04 [notice] 1#1: start worker process 31
+2022/12/13 13:32:04 [notice] 1#1: start worker process 32
+2022/12/13 13:32:04 [notice] 1#1: start worker process 33
+2022/12/13 13:32:04 [notice] 1#1: start worker process 34
+2022/12/13 13:32:10 [error] 31#31: *1 connect() failed (113: No route to host) while connecting to upstream, client: 172.28.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://172.28.0.5:3000/", host: "localhost"
+2022/12/13 13:32:13 [error] 31#31: *1 connect() failed (113: No route to host) while connecting to upstream, client: 172.28.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.28.0.5:3000/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2022/12/13 13:32:21 [error] 31#31: *1 connect() failed (113: No route to host) while connecting to upstream, client: 172.28.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://172.28.0.5:3000/", host: "localhost"
+2022/12/13 13:32:24 [error] 31#31: *1 connect() failed (113: No route to host) while connecting to upstream, client: 172.28.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.28.0.5:3000/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2022/12/13 13:35:03 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/12/13 13:35:03 [notice] 31#31: gracefully shutting down
+2022/12/13 13:35:03 [notice] 32#32: gracefully shutting down
+2022/12/13 13:35:03 [notice] 32#32: exiting
+2022/12/13 13:35:03 [notice] 33#33: gracefully shutting down
+2022/12/13 13:35:03 [notice] 34#34: gracefully shutting down
+2022/12/13 13:35:03 [notice] 31#31: exiting
+2022/12/13 13:35:03 [notice] 32#32: exit
+2022/12/13 13:35:03 [notice] 33#33: exiting
+2022/12/13 13:35:03 [notice] 33#33: exit
+2022/12/13 13:35:03 [notice] 34#34: exiting
+2022/12/13 13:35:03 [notice] 34#34: exit
+2022/12/13 13:35:03 [notice] 31#31: exit
+2022/12/13 13:35:03 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/12/13 13:35:03 [notice] 1#1: worker process 33 exited with code 0
+2022/12/13 13:35:03 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/13 13:35:03 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/12/13 13:35:03 [notice] 1#1: worker process 31 exited with code 0
+2022/12/13 13:35:03 [notice] 1#1: worker process 32 exited with code 0
+2022/12/13 13:35:03 [notice] 1#1: worker process 34 exited with code 0
+2022/12/13 13:35:03 [notice] 1#1: exit
+2022/12/13 13:35:18 [notice] 1#1: using the "epoll" event method
+2022/12/13 13:35:18 [notice] 1#1: nginx/1.21.6
+2022/12/13 13:35:18 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/12/13 13:35:18 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/12/13 13:35:18 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/12/13 13:35:18 [notice] 1#1: start worker processes
+2022/12/13 13:35:18 [notice] 1#1: start worker process 30
+2022/12/13 13:35:18 [notice] 1#1: start worker process 31
+2022/12/13 13:35:18 [notice] 1#1: start worker process 32
+2022/12/13 13:35:18 [notice] 1#1: start worker process 33
+2022/12/13 14:08:14 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/12/13 14:08:14 [notice] 31#31: gracefully shutting down
+2022/12/13 14:08:14 [notice] 32#32: gracefully shutting down
+2022/12/13 14:08:14 [notice] 33#33: gracefully shutting down
+2022/12/13 14:08:14 [notice] 30#30: gracefully shutting down
+2022/12/13 14:08:14 [notice] 31#31: exiting
+2022/12/13 14:08:14 [notice] 31#31: exit
+2022/12/13 14:08:14 [notice] 32#32: exiting
+2022/12/13 14:08:14 [notice] 33#33: exiting
+2022/12/13 14:08:14 [notice] 33#33: exit
+2022/12/13 14:08:14 [notice] 30#30: exiting
+2022/12/13 14:08:14 [notice] 30#30: exit
+2022/12/13 14:08:14 [notice] 32#32: exit
+2022/12/13 14:08:14 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/12/13 14:08:14 [notice] 1#1: worker process 33 exited with code 0
+2022/12/13 14:08:14 [notice] 1#1: worker process 31 exited with code 0
+2022/12/13 14:08:14 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/13 14:08:14 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/12/13 14:08:14 [notice] 1#1: worker process 32 exited with code 0
+2022/12/13 14:08:14 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/13 14:08:14 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2022/12/13 14:08:14 [notice] 1#1: worker process 30 exited with code 0
+2022/12/13 14:08:14 [notice] 1#1: exit
+2022/12/13 14:08:27 [notice] 1#1: using the "epoll" event method
+2022/12/13 14:08:27 [notice] 1#1: nginx/1.21.6
+2022/12/13 14:08:27 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/12/13 14:08:27 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/12/13 14:08:27 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/12/13 14:08:27 [notice] 1#1: start worker processes
+2022/12/13 14:08:27 [notice] 1#1: start worker process 33
+2022/12/13 14:08:27 [notice] 1#1: start worker process 34
+2022/12/13 14:08:27 [notice] 1#1: start worker process 35
+2022/12/13 14:08:27 [notice] 1#1: start worker process 36
+2022/12/13 14:14:04 [error] 35#35: *14 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.30.0.5:6006/", host: "localhost"
+2022/12/13 14:18:17 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/12/13 14:18:17 [notice] 33#33: gracefully shutting down
+2022/12/13 14:18:17 [notice] 34#34: gracefully shutting down
+2022/12/13 14:18:17 [notice] 35#35: gracefully shutting down
+2022/12/13 14:18:17 [notice] 33#33: exiting
+2022/12/13 14:18:17 [notice] 36#36: gracefully shutting down
+2022/12/13 14:18:17 [notice] 34#34: exiting
+2022/12/13 14:18:17 [notice] 34#34: exit
+2022/12/13 14:18:17 [notice] 35#35: exiting
+2022/12/13 14:18:17 [notice] 35#35: exit
+2022/12/13 14:18:17 [notice] 33#33: exit
+2022/12/13 14:18:17 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2022/12/13 14:18:17 [notice] 1#1: worker process 34 exited with code 0
+2022/12/13 14:18:17 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/13 14:18:17 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/12/13 14:18:17 [notice] 1#1: worker process 33 exited with code 0
+2022/12/13 14:18:17 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/13 14:18:17 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2022/12/13 14:18:17 [notice] 1#1: worker process 35 exited with code 0
+2022/12/13 14:18:17 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/13 14:18:45 [notice] 1#1: using the "epoll" event method
+2022/12/13 14:18:45 [notice] 1#1: nginx/1.21.6
+2022/12/13 14:18:45 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/12/13 14:18:45 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/12/13 14:18:45 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/12/13 14:18:45 [notice] 1#1: start worker processes
+2022/12/13 14:18:45 [notice] 1#1: start worker process 30
+2022/12/13 14:18:45 [notice] 1#1: start worker process 31
+2022/12/13 14:18:45 [notice] 1#1: start worker process 32
+2022/12/13 14:18:45 [notice] 1#1: start worker process 33
+2022/12/13 14:18:46 [error] 30#30: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.31.0.1, server: localhost, request: "GET /_next/webpack-hmr HTTP/1.1", upstream: "http://172.31.0.5:3000/_next/webpack-hmr", host: "localhost"
+2022/12/13 14:19:25 [error] 31#31: *3 connect() failed (113: No route to host) while connecting to upstream, client: 172.31.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.31.0.5:6006/", host: "localhost"
+2022/12/13 14:19:25 [error] 32#32: *5 connect() failed (113: No route to host) while connecting to upstream, client: 172.31.0.1, server: localhost, request: "GET /_next/webpack-hmr HTTP/1.1", upstream: "http://172.31.0.5:3000/_next/webpack-hmr", host: "localhost"
+2022/12/13 14:19:29 [error] 31#31: *3 connect() failed (113: No route to host) while connecting to upstream, client: 172.31.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.31.0.5:3000/favicon.ico", host: "localhost", referrer: "http://localhost/storybook/"
+2022/12/13 14:19:32 [error] 33#33: *7 connect() failed (113: No route to host) while connecting to upstream, client: 172.31.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://172.31.0.5:3000/", host: "localhost"
+2022/12/13 14:19:32 [error] 30#30: *10 connect() failed (113: No route to host) while connecting to upstream, client: 172.31.0.1, server: localhost, request: "GET /_next/webpack-hmr HTTP/1.1", upstream: "http://172.31.0.5:3000/_next/webpack-hmr", host: "localhost"
+2022/12/13 14:19:35 [error] 33#33: *7 connect() failed (113: No route to host) while connecting to upstream, client: 172.31.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.31.0.5:3000/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2022/12/13 14:19:43 [error] 33#33: *7 connect() failed (113: No route to host) while connecting to upstream, client: 172.31.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://172.31.0.5:3000/", host: "localhost"
+2022/12/13 14:19:46 [error] 31#31: *3 connect() failed (113: No route to host) while connecting to upstream, client: 172.31.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.31.0.5:6006/", host: "localhost"
+2022/12/13 14:19:46 [error] 33#33: *7 connect() failed (113: No route to host) while connecting to upstream, client: 172.31.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.31.0.5:3000/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2022/12/13 14:19:49 [error] 33#33: *7 connect() failed (113: No route to host) while connecting to upstream, client: 172.31.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.31.0.5:3000/favicon.ico", host: "localhost", referrer: "http://localhost/storybook/"
+2022/12/13 14:26:03 [error] 30#30: *17 connect() failed (113: No route to host) while connecting to upstream, client: 172.31.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://172.31.0.5:6006/", host: "localhost"
+2022/12/13 14:26:06 [error] 30#30: *17 connect() failed (113: No route to host) while connecting to upstream, client: 172.31.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.31.0.5:3000/favicon.ico", host: "localhost", referrer: "http://localhost/storybook/"
+2022/12/13 14:26:23 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/12/13 14:26:23 [notice] 30#30: gracefully shutting down
+2022/12/13 14:26:23 [notice] 31#31: gracefully shutting down
+2022/12/13 14:26:23 [notice] 33#33: gracefully shutting down
+2022/12/13 14:26:23 [notice] 32#32: gracefully shutting down
+2022/12/13 14:26:23 [notice] 31#31: exiting
+2022/12/13 14:26:23 [notice] 30#30: exiting
+2022/12/13 14:26:23 [notice] 30#30: exit
+2022/12/13 14:26:23 [notice] 33#33: exiting
+2022/12/13 14:26:23 [notice] 31#31: exit
+2022/12/13 14:26:23 [notice] 33#33: exit
+2022/12/13 14:26:23 [notice] 32#32: exiting
+2022/12/13 14:26:23 [notice] 32#32: exit
+2022/12/13 14:26:23 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/12/13 14:26:23 [notice] 1#1: worker process 31 exited with code 0
+2022/12/13 14:26:23 [notice] 1#1: worker process 32 exited with code 0
+2022/12/13 14:26:23 [notice] 1#1: worker process 30 exited with code 0
+2022/12/13 14:26:23 [notice] 1#1: worker process 33 exited with code 0
+2022/12/13 14:26:23 [notice] 1#1: exit
+2022/12/13 14:26:39 [notice] 1#1: using the "epoll" event method
+2022/12/13 14:26:39 [notice] 1#1: nginx/1.21.6
+2022/12/13 14:26:39 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/12/13 14:26:39 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/12/13 14:26:39 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/12/13 14:26:39 [notice] 1#1: start worker processes
+2022/12/13 14:26:39 [notice] 1#1: start worker process 31
+2022/12/13 14:26:39 [notice] 1#1: start worker process 32
+2022/12/13 14:26:39 [notice] 1#1: start worker process 33
+2022/12/13 14:26:39 [notice] 1#1: start worker process 34
+2022/12/13 14:26:46 [error] 31#31: *1 connect() failed (113: No route to host) while connecting to upstream, client: 192.168.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://192.168.0.5:3000/", host: "localhost"
+2022/12/13 14:26:46 [error] 32#32: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://127.0.0.1:6006/", host: "localhost"
+2022/12/13 14:26:46 [error] 32#32: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://127.0.0.1:6006/", host: "localhost"
+2022/12/13 14:26:49 [error] 31#31: *1 connect() failed (113: No route to host) while connecting to upstream, client: 192.168.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://192.168.0.5:3000/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2022/12/13 14:26:49 [error] 31#31: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://127.0.0.1:6006/", host: "localhost"
+2022/12/13 14:26:49 [error] 31#31: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://127.0.0.1:6006/", host: "localhost"
+2022/12/13 14:26:50 [error] 33#33: *11 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://127.0.0.1:6006/", host: "localhost"
+2022/12/13 14:26:50 [error] 33#33: *11 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.0.1, server: localhost, request: "GET /storybook/ HTTP/1.1", upstream: "http://127.0.0.1:6006/", host: "localhost"
+2022/12/13 14:26:52 [error] 33#33: *11 connect() failed (113: No route to host) while connecting to upstream, client: 192.168.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://192.168.0.5:3000/favicon.ico", host: "localhost", referrer: "http://localhost/storybook/"
+2022/12/13 14:26:52 [error] 34#34: *15 connect() failed (113: No route to host) while connecting to upstream, client: 192.168.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://192.168.0.5:3000/", host: "localhost"
+2022/12/13 14:26:55 [error] 34#34: *15 connect() failed (113: No route to host) while connecting to upstream, client: 192.168.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://192.168.0.5:3000/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2022/12/13 14:29:02 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/12/13 14:29:02 [notice] 32#32: gracefully shutting down
+2022/12/13 14:29:02 [notice] 32#32: exiting
+2022/12/13 14:29:02 [notice] 34#34: gracefully shutting down
+2022/12/13 14:29:02 [notice] 31#31: gracefully shutting down
+2022/12/13 14:29:02 [notice] 31#31: exiting
+2022/12/13 14:29:02 [notice] 33#33: gracefully shutting down
+2022/12/13 14:29:02 [notice] 32#32: exit
+2022/12/13 14:29:02 [notice] 34#34: exiting
+2022/12/13 14:29:02 [notice] 31#31: exit
+2022/12/13 14:29:02 [notice] 33#33: exiting
+2022/12/13 14:29:02 [notice] 34#34: exit
+2022/12/13 14:29:02 [notice] 33#33: exit
+2022/12/13 14:29:02 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/12/13 14:29:02 [notice] 1#1: worker process 32 exited with code 0
+2022/12/13 14:29:02 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/13 14:29:02 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2022/12/13 14:29:02 [notice] 1#1: worker process 34 exited with code 0
+2022/12/13 14:29:02 [notice] 1#1: worker process 31 exited with code 0
+2022/12/13 14:29:02 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/12/13 14:29:02 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/13 14:29:02 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/12/13 14:29:02 [notice] 1#1: worker process 33 exited with code 0
+2022/12/13 14:29:02 [notice] 1#1: exit
+2022/12/13 14:29:15 [notice] 1#1: using the "epoll" event method
+2022/12/13 14:29:15 [notice] 1#1: nginx/1.21.6
+2022/12/13 14:29:15 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/12/13 14:29:15 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/12/13 14:29:15 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/12/13 14:29:15 [notice] 1#1: start worker processes
+2022/12/13 14:29:15 [notice] 1#1: start worker process 31
+2022/12/13 14:29:15 [notice] 1#1: start worker process 32
+2022/12/13 14:29:15 [notice] 1#1: start worker process 33
+2022/12/13 14:29:15 [notice] 1#1: start worker process 34
+2022/12/13 14:29:22 [error] 31#31: *1 connect() failed (113: No route to host) while connecting to upstream, client: 192.168.16.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://192.168.16.5:3000/", host: "localhost"
+2022/12/13 14:29:25 [error] 31#31: *1 connect() failed (113: No route to host) while connecting to upstream, client: 192.168.16.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://192.168.16.5:3000/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2022/12/13 14:29:50 [error] 31#31: *1 connect() failed (113: No route to host) while connecting to upstream, client: 192.168.16.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://192.168.16.5:3000/", host: "localhost"
+2022/12/13 14:29:53 [error] 31#31: *1 connect() failed (113: No route to host) while connecting to upstream, client: 192.168.16.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://192.168.16.5:3000/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2022/12/13 14:29:57 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/12/13 14:29:57 [notice] 31#31: gracefully shutting down
+2022/12/13 14:29:57 [notice] 34#34: gracefully shutting down
+2022/12/13 14:29:57 [notice] 33#33: gracefully shutting down
+2022/12/13 14:29:57 [notice] 33#33: exiting
+2022/12/13 14:29:57 [notice] 32#32: gracefully shutting down
+2022/12/13 14:29:57 [notice] 31#31: exiting
+2022/12/13 14:29:57 [notice] 34#34: exiting
+2022/12/13 14:29:57 [notice] 33#33: exit
+2022/12/13 14:29:57 [notice] 32#32: exiting
+2022/12/13 14:29:57 [notice] 32#32: exit
+2022/12/13 14:29:57 [notice] 31#31: exit
+2022/12/13 14:29:57 [notice] 34#34: exit
+2022/12/13 14:29:57 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/12/13 14:29:57 [notice] 1#1: worker process 33 exited with code 0
+2022/12/13 14:29:57 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/13 14:29:58 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/12/13 14:29:58 [notice] 1#1: worker process 31 exited with code 0
+2022/12/13 14:29:58 [notice] 1#1: worker process 32 exited with code 0
+2022/12/13 14:29:58 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/13 14:29:58 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2022/12/13 14:29:58 [notice] 1#1: worker process 34 exited with code 0
+2022/12/13 14:29:58 [notice] 1#1: exit
+2022/12/13 14:30:13 [notice] 1#1: using the "epoll" event method
+2022/12/13 14:30:13 [notice] 1#1: nginx/1.21.6
+2022/12/13 14:30:13 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/12/13 14:30:13 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/12/13 14:30:13 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/12/13 14:30:13 [notice] 1#1: start worker processes
+2022/12/13 14:30:13 [notice] 1#1: start worker process 30
+2022/12/13 14:30:13 [notice] 1#1: start worker process 31
+2022/12/13 14:30:13 [notice] 1#1: start worker process 32
+2022/12/13 14:30:13 [notice] 1#1: start worker process 33
+2022/12/13 14:59:09 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/12/13 14:59:09 [notice] 30#30: gracefully shutting down
+2022/12/13 14:59:09 [notice] 32#32: gracefully shutting down
+2022/12/13 14:59:09 [notice] 31#31: gracefully shutting down
+2022/12/13 14:59:09 [notice] 33#33: gracefully shutting down
+2022/12/13 14:59:09 [notice] 31#31: exiting
+2022/12/13 14:59:09 [notice] 32#32: exiting
+2022/12/13 14:59:09 [notice] 33#33: exiting
+2022/12/13 14:59:09 [notice] 30#30: exiting
+2022/12/13 14:59:09 [notice] 31#31: exit
+2022/12/13 14:59:09 [notice] 32#32: exit
+2022/12/13 14:59:09 [notice] 33#33: exit
+2022/12/13 14:59:09 [notice] 30#30: exit
+2022/12/13 14:59:09 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/12/13 14:59:09 [notice] 1#1: worker process 31 exited with code 0
+2022/12/13 14:59:09 [notice] 1#1: worker process 30 exited with code 0
+2022/12/13 14:59:09 [notice] 1#1: worker process 32 exited with code 0
+2022/12/13 14:59:09 [notice] 1#1: worker process 33 exited with code 0
+2022/12/13 14:59:09 [notice] 1#1: exit
+2022/12/13 15:02:52 [notice] 1#1: using the "epoll" event method
+2022/12/13 15:02:52 [notice] 1#1: nginx/1.21.6
+2022/12/13 15:02:52 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/12/13 15:02:52 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/12/13 15:02:52 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/12/13 15:02:52 [notice] 1#1: start worker processes
+2022/12/13 15:02:52 [notice] 1#1: start worker process 30
+2022/12/13 15:02:52 [notice] 1#1: start worker process 31
+2022/12/13 15:02:52 [notice] 1#1: start worker process 32
+2022/12/13 15:02:52 [notice] 1#1: start worker process 33
+2022/12/13 15:03:12 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/12/13 15:03:12 [notice] 31#31: gracefully shutting down
+2022/12/13 15:03:12 [notice] 31#31: exiting
+2022/12/13 15:03:12 [notice] 32#32: gracefully shutting down
+2022/12/13 15:03:12 [notice] 30#30: gracefully shutting down
+2022/12/13 15:03:12 [notice] 30#30: exiting
+2022/12/13 15:03:12 [notice] 33#33: gracefully shutting down
+2022/12/13 15:03:12 [notice] 33#33: exiting
+2022/12/13 15:03:12 [notice] 31#31: exit
+2022/12/13 15:03:12 [notice] 32#32: exiting
+2022/12/13 15:03:12 [notice] 32#32: exit
+2022/12/13 15:03:12 [notice] 30#30: exit
+2022/12/13 15:03:12 [notice] 33#33: exit
+2022/12/13 15:03:12 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/12/13 15:03:12 [notice] 1#1: worker process 31 exited with code 0
+2022/12/13 15:03:12 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/13 15:03:12 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/12/13 15:03:12 [notice] 1#1: worker process 32 exited with code 0
+2022/12/13 15:03:12 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/13 15:03:12 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/12/13 15:03:12 [notice] 1#1: worker process 30 exited with code 0
+2022/12/13 15:03:12 [notice] 1#1: worker process 33 exited with code 0
+2022/12/13 15:03:12 [notice] 1#1: exit
+2022/12/13 15:03:27 [notice] 1#1: using the "epoll" event method
+2022/12/13 15:03:27 [notice] 1#1: nginx/1.21.6
+2022/12/13 15:03:27 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/12/13 15:03:27 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/12/13 15:03:27 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/12/13 15:03:27 [notice] 1#1: start worker processes
+2022/12/13 15:03:27 [notice] 1#1: start worker process 34
+2022/12/13 15:03:27 [notice] 1#1: start worker process 35
+2022/12/13 15:03:27 [notice] 1#1: start worker process 36
+2022/12/13 15:03:27 [notice] 1#1: start worker process 37
+2022/12/13 15:03:30 [error] 36#36: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.80.1, server: localhost, request: "GET /_next/image?url=https%3A%2F%2Fimg.shields.io%2Fbadge%2Fnext.js-000000%3Fstyle%3Dfor-the-badge%26logo%3Dnextdotjs%26logoColor%3Dwhite&w=3840&q=75 HTTP/1.1", upstream: "http://192.168.80.5:6006/_next/image?url=https%3A%2F%2Fimg.shields.io%2Fbadge%2Fnext.js-000000%3Fstyle%3Dfor-the-badge%26logo%3Dnextdotjs%26logoColor%3Dwhite&w=3840&q=75", host: "localhost", referrer: "http://localhost/"
+2022/12/13 15:03:30 [error] 34#34: *3 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.80.1, server: localhost, request: "GET /_next/image?url=https%3A%2F%2Fimg.shields.io%2Fbadge%2FSass-CC6699%3Fstyle%3Dfor-the-badge%26logo%3Dsass%26logoColor%3Dwhite&w=128&q=75 HTTP/1.1", upstream: "http://192.168.80.5:6006/_next/image?url=https%3A%2F%2Fimg.shields.io%2Fbadge%2FSass-CC6699%3Fstyle%3Dfor-the-badge%26logo%3Dsass%26logoColor%3Dwhite&w=128&q=75", host: "localhost", referrer: "http://localhost/"
+2022/12/13 15:03:30 [error] 35#35: *7 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.80.1, server: localhost, request: "GET /_next/image?url=https%3A%2F%2Fimg.shields.io%2Fbadge%2Fstorybook-FF4785%3Fstyle%3Dfor-the-badge%26logo%3Dstorybook%26logoColor%3Dwhite&w=3840&q=75 HTTP/1.1", upstream: "http://192.168.80.5:6006/_next/image?url=https%3A%2F%2Fimg.shields.io%2Fbadge%2Fstorybook-FF4785%3Fstyle%3Dfor-the-badge%26logo%3Dstorybook%26logoColor%3Dwhite&w=3840&q=75", host: "localhost", referrer: "http://localhost/"
+2022/12/13 15:03:30 [error] 34#34: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.80.1, server: localhost, request: "GET /_next/image?url=https%3A%2F%2Fimg.shields.io%2Fbadge%2FMaterial%2520UI-007FFF%3Fstyle%3Dfor-the-badge%26logo%3Dmui%26logoColor%3Dwhite&w=3840&q=75 HTTP/1.1", upstream: "http://192.168.80.5:6006/_next/image?url=https%3A%2F%2Fimg.shields.io%2Fbadge%2FMaterial%2520UI-007FFF%3Fstyle%3Dfor-the-badge%26logo%3Dmui%26logoColor%3Dwhite&w=3840&q=75", host: "localhost", referrer: "http://localhost/"
+2022/12/13 15:03:30 [error] 34#34: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.80.1, server: localhost, request: "GET /_next/image?url=https%3A%2F%2Fimg.shields.io%2Fbadge%2FTypeScript-007ACC%3Fstyle%3Dfor-the-badge%26logo%3Dtypescript%26logoColor%3Dwhite&w=3840&q=75 HTTP/1.1", upstream: "http://192.168.80.5:6006/_next/image?url=https%3A%2F%2Fimg.shields.io%2Fbadge%2FTypeScript-007ACC%3Fstyle%3Dfor-the-badge%26logo%3Dtypescript%26logoColor%3Dwhite&w=3840&q=75", host: "localhost", referrer: "http://localhost/"
+2022/12/13 15:03:34 [error] 34#34: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.80.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://192.168.80.5:6006/", host: "localhost"
+2022/12/13 15:03:34 [error] 34#34: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.80.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://192.168.80.5:6006/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2022/12/13 15:03:35 [error] 34#34: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.80.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://192.168.80.5:6006/", host: "localhost"
+2022/12/13 15:03:35 [error] 34#34: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.80.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://192.168.80.5:6006/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2022/12/13 15:03:36 [error] 34#34: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.80.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://192.168.80.5:6006/", host: "localhost"
+2022/12/13 15:03:36 [error] 34#34: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.80.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://192.168.80.5:6006/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2022/12/13 15:03:36 [error] 34#34: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.80.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://192.168.80.5:6006/", host: "localhost"
+2022/12/13 15:03:36 [error] 34#34: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.80.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://192.168.80.5:6006/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2022/12/13 15:03:36 [error] 34#34: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.80.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://192.168.80.5:6006/", host: "localhost"
+2022/12/13 15:03:36 [error] 34#34: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.80.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://192.168.80.5:6006/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2022/12/13 15:04:18 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/12/13 15:04:18 [notice] 35#35: gracefully shutting down
+2022/12/13 15:04:18 [notice] 36#36: gracefully shutting down
+2022/12/13 15:04:18 [notice] 34#34: gracefully shutting down
+2022/12/13 15:04:18 [notice] 37#37: gracefully shutting down
+2022/12/13 15:04:18 [notice] 37#37: exiting
+2022/12/13 15:04:18 [notice] 35#35: exiting
+2022/12/13 15:04:18 [notice] 36#36: exiting
+2022/12/13 15:04:18 [notice] 36#36: exit
+2022/12/13 15:04:18 [notice] 34#34: exiting
+2022/12/13 15:04:18 [notice] 37#37: exit
+2022/12/13 15:04:18 [notice] 35#35: exit
+2022/12/13 15:04:18 [notice] 34#34: exit
+2022/12/13 15:04:18 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2022/12/13 15:04:18 [notice] 1#1: worker process 36 exited with code 0
+2022/12/13 15:04:18 [notice] 1#1: worker process 37 exited with code 0
+2022/12/13 15:04:18 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/13 15:04:18 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2022/12/13 15:04:18 [notice] 1#1: worker process 34 exited with code 0
+2022/12/13 15:04:18 [notice] 1#1: worker process 35 exited with code 0
+2022/12/13 15:04:18 [notice] 1#1: exit
+2022/12/13 15:04:33 [notice] 1#1: using the "epoll" event method
+2022/12/13 15:04:33 [notice] 1#1: nginx/1.21.6
+2022/12/13 15:04:33 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/12/13 15:04:33 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/12/13 15:04:33 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/12/13 15:04:33 [notice] 1#1: start worker processes
+2022/12/13 15:04:33 [notice] 1#1: start worker process 30
+2022/12/13 15:04:33 [notice] 1#1: start worker process 31
+2022/12/13 15:04:33 [notice] 1#1: start worker process 32
+2022/12/13 15:04:33 [notice] 1#1: start worker process 33
+2022/12/13 15:04:47 [error] 30#30: *1 connect() failed (113: No route to host) while connecting to upstream, client: 192.168.96.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://192.168.96.5:3000/", host: "localhost"
+2022/12/13 15:04:51 [error] 30#30: *1 connect() failed (113: No route to host) while connecting to upstream, client: 192.168.96.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://192.168.96.5:3000/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2022/12/13 16:03:58 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/12/13 16:03:58 [notice] 30#30: gracefully shutting down
+2022/12/13 16:03:58 [notice] 31#31: gracefully shutting down
+2022/12/13 16:03:58 [notice] 32#32: gracefully shutting down
+2022/12/13 16:03:58 [notice] 33#33: gracefully shutting down
+2022/12/13 16:03:58 [notice] 30#30: exiting
+2022/12/13 16:03:58 [notice] 31#31: exiting
+2022/12/13 16:03:58 [notice] 30#30: exit
+2022/12/13 16:03:58 [notice] 32#32: exiting
+2022/12/13 16:03:58 [notice] 31#31: exit
+2022/12/13 16:03:58 [notice] 32#32: exit
+2022/12/13 16:03:58 [notice] 33#33: exiting
+2022/12/13 16:03:58 [notice] 33#33: exit
+2022/12/13 16:03:58 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/12/13 16:03:58 [notice] 1#1: worker process 33 exited with code 0
+2022/12/13 16:03:58 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/13 16:03:58 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/12/13 16:03:58 [notice] 1#1: worker process 31 exited with code 0
+2022/12/13 16:03:58 [notice] 1#1: worker process 32 exited with code 0
+2022/12/13 16:03:58 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/13 16:03:58 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2022/12/13 16:03:58 [notice] 1#1: worker process 30 exited with code 0
+2022/12/13 16:03:58 [notice] 1#1: exit
+2022/12/13 16:04:09 [emerg] 1#1: host not found in upstream "frontend" in /etc/nginx/conf.d/default.conf:24
+2022/12/13 16:05:55 [emerg] 1#1: host not found in upstream "frontend" in /etc/nginx/conf.d/default.conf:24
+2022/12/13 16:06:40 [emerg] 1#1: host not found in upstream "frontend" in /etc/nginx/conf.d/default.conf:24
+2022/12/13 16:08:02 [emerg] 1#1: host not found in upstream "frontend" in /etc/nginx/conf.d/default.conf:24
+2022/12/13 16:08:42 [notice] 1#1: using the "epoll" event method
+2022/12/13 16:08:42 [notice] 1#1: nginx/1.21.6
+2022/12/13 16:08:42 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/12/13 16:08:42 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/12/13 16:08:42 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/12/13 16:08:42 [notice] 1#1: start worker processes
+2022/12/13 16:08:42 [notice] 1#1: start worker process 30
+2022/12/13 16:08:42 [notice] 1#1: start worker process 31
+2022/12/13 16:08:42 [notice] 1#1: start worker process 32
+2022/12/13 16:08:42 [notice] 1#1: start worker process 33
+2022/12/13 16:48:48 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/12/13 16:48:48 [notice] 30#30: gracefully shutting down
+2022/12/13 16:48:48 [notice] 32#32: gracefully shutting down
+2022/12/13 16:48:48 [notice] 33#33: gracefully shutting down
+2022/12/13 16:48:48 [notice] 31#31: gracefully shutting down
+2022/12/13 16:48:48 [notice] 30#30: exiting
+2022/12/13 16:48:48 [notice] 32#32: exiting
+2022/12/13 16:48:48 [notice] 33#33: exiting
+2022/12/13 16:48:48 [notice] 31#31: exiting
+2022/12/13 16:48:48 [notice] 31#31: exit
+2022/12/13 16:48:48 [notice] 30#30: exit
+2022/12/13 16:48:48 [notice] 32#32: exit
+2022/12/13 16:48:48 [notice] 33#33: exit
+2022/12/13 16:48:48 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2022/12/13 16:48:48 [notice] 1#1: worker process 30 exited with code 0
+2022/12/13 16:48:48 [notice] 1#1: worker process 31 exited with code 0
+2022/12/13 16:48:48 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/13 16:48:48 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/12/13 16:48:48 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/12/13 16:48:48 [notice] 1#1: worker process 32 exited with code 0
+2022/12/13 16:48:48 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/13 16:48:48 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/12/13 16:48:48 [notice] 1#1: worker process 33 exited with code 0
+2022/12/13 16:48:48 [notice] 1#1: exit
+2022/12/13 16:49:03 [emerg] 1#1: host not found in upstream "frontend" in /etc/nginx/conf.d/default.conf:24
+2022/12/13 16:49:41 [emerg] 1#1: host not found in upstream "frontend" in /etc/nginx/conf.d/default.conf:24
+2022/12/13 16:50:32 [notice] 1#1: using the "epoll" event method
+2022/12/13 16:50:32 [notice] 1#1: nginx/1.21.6
+2022/12/13 16:50:32 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/12/13 16:50:32 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/12/13 16:50:32 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/12/13 16:50:32 [notice] 1#1: start worker processes
+2022/12/13 16:50:32 [notice] 1#1: start worker process 30
+2022/12/13 16:50:32 [notice] 1#1: start worker process 31
+2022/12/13 16:50:32 [notice] 1#1: start worker process 32
+2022/12/13 16:50:32 [notice] 1#1: start worker process 33
