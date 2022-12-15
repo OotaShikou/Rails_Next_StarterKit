@@ -19,8 +19,9 @@ password: password
 
 ```
 sign up
-curl localhost/manage/auth -X POST -d '{"email":"oota@example.com", "password":"password", "password_confirmation": "password", "name": "oota"}' -H "content-type:application/json" -i
+curl -X POST http://localhost/manage/api/v1/auth -d '[name]=test&[email]=test@example.com&[password]=password&[password_confirmation]=password'
+
 
 login
-curl localhost/manage/auth/sign_in -X POST -d '{"email":"oota@example.com", "password":"password"}' -H "content-type:application/json" -i
+curl localhost/manage/api/v1/auth/sign_in -X POST -d '{"email":"test@example.com", "password":"password"}' -H "content-type:application/json" -i
 ```
