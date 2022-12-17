@@ -37,6 +37,7 @@ getCurrentUser
 curl localhost/manage/api/v1/auth/sessions -X GET -H "uid: test@example.com" -H "client: login時に取得したclient" -H "access-token: login時に取得したaccess-token"
 ```
 ```
+edit
 curl -i localhost/manage/api/v1/auth -X PUT -H "Content-Type: application/json" -H "uid: test@example.com"  -H "client: login時に取得したclient" -H "access-token: login時に取得したaccess-token" -d '{"nickname":"update", "name":"update myname"}'
 
 # name, nickname password(default) email(default)のみ更新することができます。
