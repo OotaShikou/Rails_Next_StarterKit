@@ -62,7 +62,6 @@ services:
     environment:
       - TZ=Asia/Tokyo
       - PGTZ=Asia/Tokyo
-      - POSTGRES_USER=root
       - POSTGRES_PASSWORD=password
     volumes:
       - ./container/db/data:/var/lib/postgresql/data
